@@ -56,3 +56,8 @@ a { color:#d1d1d1; }
 .dropdown-content a { color:#d1d1d1 !important; }
 .dropdown-content a:hover { background-color:#333333 !important; }
 .dropdown-content, .dropdown-content * { color:#d1d1d1 !important; }
+
+.contact-list { list-style:none !important; padding:0 !important; margin:0; }
+.contact-list li { list-style:none !important; display:flex; align-items:center; margin-bottom:1rem; font-size:1.1rem; }
+.contact-list li::before { content:none !important; }
+.contact-list i { flex:0 0 2rem; text-align:center; margin-right:.75rem; }
