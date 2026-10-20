@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Educational Content Preferences Case Study
-image: yt.jpg
+image: yt (1).jpg
 ---
 
 longer description of the project.
