@@ -1,0 +1,11 @@
+---
+layout: post
+title: Project one
+image: /assets/img/project1.jpg
+description: one-sentence summary shown on the card.
+---
+
+longer description of the project.
+
+- [project folder](https://github.com/USERNAME/REPO/tree/main/project1-folder)
+- [analysis script](https://github.com/USERNAME/REPO/blob/main/project1-folder/analysis.py)
