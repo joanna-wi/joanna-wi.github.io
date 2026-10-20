@@ -39,3 +39,9 @@ $rss-color: #ff6600;
 #tab1:checked ~ #panel1, #tab2:checked ~ #panel2 { display:block; }
 #tab1:checked ~ .tab-labels label[for="tab1"],
 #tab2:checked ~ .tab-labels label[for="tab2"] { border-bottom-color:currentColor; font-weight:bold; }
+
+
+.project-card { display:block; margin-bottom:2rem; text-decoration:none; color:inherit; }
+.project-card img { width:100%; max-height:300px; object-fit:cover; }
+.project-card h2 { margin:.75rem 0 .25rem; }
+.project-card:hover h2 { text-decoration:underline; }
