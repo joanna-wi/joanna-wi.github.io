@@ -1,7 +1,12 @@
 ---
 layout: page
 title: Contact
-permalink: /contact
+permalink: /contact/
 ---
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Millennial%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/Millennial/issues/new).
+<ul class="contact-list">
+  <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:your.email@example.com">contact.joannawilkosz@gmail.com</a></li>
+  <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+4512345678">+45 50 19 01 12</a></li>
+  <li><i class="fa fa-linkedin" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/joanna-wilkosz" target="_blank">linkedin.com/in/joanna-wilkosz</a></li>
+  <li><i class="fa fa-home" aria-hidden="true"></i> 2600 Glostrup</li>
+</ul>
