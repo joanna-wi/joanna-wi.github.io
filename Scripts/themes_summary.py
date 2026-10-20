@@ -1,0 +1,71 @@
+# -*- coding: utf-8 -*-
+
+!pip -q install keybert sentence-transformers
+import pandas as pd
+from google.colab import files
+files.upload()   # upload reviews file
+
+COL = "full_review"
+df = pd.read_csv("reviews.csv")
+df[COL] = df[COL].astype("string").str.strip()
+df = df[df[COL].notna() & (df[COL] != "")].reset_index(names="orig_row")
+print(len(df), "non-empty reviews")
+
+from transformers import pipeline
+
+sent = pipeline("text-classification",
+                model="cardiffnlp/twitter-roberta-base-sentiment-latest",
+                top_k=None, truncation=True, max_length=256,
+                device=0, batch_size=64)
+
+def run_sent(texts):
+    rows = []
+    for out in sent(texts):
+        d = {x["label"].lower(): x["score"] for x in out}
+        rows.append((max(d, key=d.get), d["positive"] - d["negative"]))
+    return rows
+
+from keybert import KeyBERT
+from sentence_transformers import SentenceTransformer
+
+emb = SentenceTransformer("all-MiniLM-L6-v2", device="cuda")
+kb = KeyBERT(model=emb)
+
+texts = df[COL].tolist()
+kws = []
+for s in range(0, len(texts), 2000):
+    kws += kb.extract_keywords(texts[s:s+2000], keyphrase_ngram_range=(2, 3),
+                               stop_words="english", use_mmr=True,
+                               diversity=0.5, top_n=5)
+    print(s + 2000, "done")
+
+phrases = pd.DataFrame(
+    [{"orig_row": df.loc[i, "orig_row"], "phrase": p.lower()}
+     for i, lst in enumerate(kws) for p, _ in lst])
+print(len(phrases), "phrases,", phrases.phrase.nunique(), "unique")
+
+from sentence_transformers import util
+
+uniq = phrases.phrase.value_counts()
+uniq = uniq[uniq >= 2]
+u = pd.DataFrame({"phrase": uniq.index, "count": uniq.values})
+r = run_sent(u.phrase.tolist())
+u["phrase_sentiment"] = [x[0] for x in r]
+
+E = emb.encode(u.phrase.tolist(), convert_to_tensor=True, batch_size=256,
+               normalize_embeddings=True, show_progress_bar=True)
+groups = util.community_detection(E, threshold=0.75, min_community_size=3)
+
+u["theme"] = "other"
+for g in groups:
+    members = u.iloc[g]
+    u.loc[u.index[g], "theme"] = members.sort_values("count", ascending=False).phrase.iloc[0]
+
+themes = (u.groupby(["theme", "phrase_sentiment"])["count"].sum()
+            .unstack(fill_value=0))
+themes["total"] = themes.sum(axis=1)
+themes = themes.sort_values("total", ascending=False)
+themes.head(30)
+
+themes.to_csv("themes_summary.csv")
+files.download("themes_summary.csv")
