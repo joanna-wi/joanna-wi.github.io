@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Project one
-image: /assets/img/project1.jpg
-description: one-sentence summary shown on the card.
+image: /assets/img/arctic-1.jpg
 ---
 
 longer description of the project.
