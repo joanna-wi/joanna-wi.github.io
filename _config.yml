@@ -18,6 +18,11 @@ collections:
   projects:
     output: true
 
+hide_post_date: true
+hide_post_share: true
+hide_related_posts: true
+
+
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
