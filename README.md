@@ -1,9 +1,9 @@
 # MSc Neuroscience
 
 ## Work Experience
-# Job 1
+### Job 1
 abc
-# Job2
+### Job2
 abc
 
 ## Education
