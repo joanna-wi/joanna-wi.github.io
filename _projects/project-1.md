@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Project one
-image: /assets/img/arctic-1.jpg
+image: arctic-1.jpg
 ---
 
 longer description of the project.
