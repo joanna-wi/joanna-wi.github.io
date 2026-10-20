@@ -1,7 +1,7 @@
 ---
 layout: post
 title: E-Commerce Dataset Case Study
-image: arctic-1.jpg
+image: ecommerce.jpg
 ---
 
 longer description of the project.
