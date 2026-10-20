@@ -36,7 +36,7 @@ $rss-color: #ff6600;
 .home-text h1 { margin-top:0; }
 
 @media (max-width: 600px) {
-  .home { flex-direction:column; text-align:center; }
+  .home { justify-content:flex-start; margin:0; text-align:left; }
   .home-text { text-align:left; }
 }
 
