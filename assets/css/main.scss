@@ -42,6 +42,9 @@ $rss-color: #ff6600;
 .project-card h2 { margin:.75rem 0 .25rem; }
 .project-card:hover h2 { text-decoration:underline; }
 
+@media (min-width: 900px) {
+  .post-content h1 { white-space:nowrap; }
+}
 
 
 body { background-color:#1a1a1a; color:#d1d1d1; }
