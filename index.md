@@ -39,7 +39,7 @@ permalink: /
 <h2 style="font-size:2rem; margin:0 0 1.5rem; padding-bottom:.5rem; border-bottom:1px solid #d1d1d1;">Areas where I can contribute</h2>
 
 <style>
-.cv-box { border:1px solid #222; border-radius:3px; margin:1rem 0; background:#000; }
+.cv-box { border:1px solid #d1d1d1; border-radius:3px; margin:1rem 0; background:#000; }
 .cv-box summary { list-style:none; cursor:pointer; padding:1.25rem 3.5rem 1.25rem 2.5rem; position:relative; display:flex; flex-direction:column; justify-content:center; min-height:6rem; }
 .cv-box summary::-webkit-details-marker { display:none; }
 .cv-box summary::after { content:"\25BE"; position:absolute; right:1.5rem; top:50%; transform:translateY(-50%); font-size:1.5rem; transition:transform .2s; }
