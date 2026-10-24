@@ -102,7 +102,7 @@ permalink: /cv/
 
 <details class="cv-box">
   <summary>
-    <h3>Scientific foundation</h3>
+    <h3>Scientific &amp; technical expertise</h3>
     <ul class="cv-short">
       <li>Neuroscience, psychology, psychiatry</li>
       <li>Human biology</li>
@@ -117,3 +117,9 @@ permalink: /cv/
     </ul>
   </div>
 </details>
+
+<script>
+document.querySelectorAll('.cv-full li').forEach(function (li) {
+  li.innerHTML = li.innerHTML.replace(/(^|[\s>])(I|a|A|an|An)\s+(?=\S)/g, '$1$2&nbsp;');
+});
+</script>
