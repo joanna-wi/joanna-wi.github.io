@@ -186,3 +186,18 @@ table .fa { color:#90b4e1; }
 </table>
 </section>
 
+
+
+<script>
+(function () {
+  var sections = document.querySelectorAll('section[id]');
+  function show() {
+    var id = location.hash.substring(1) || 'home';
+    if (!document.getElementById(id)) id = 'home';
+    sections.forEach(function (s) { s.classList.toggle('active', s.id === id); });
+    window.scrollTo(0, 0);
+  }
+  window.addEventListener('hashchange', show);
+  show();
+})();
+</script>
