@@ -8,7 +8,7 @@ permalink: /cv/
 
 <br>
 
-<h2 style="font-size:2.2rem; margin:0 0 1.5rem; padding-bottom:.5rem; border-bottom:1px solid #d1d1d1;">Areas where I can contribute</h2>
+<h2 style="font-size:2rem; margin:0 0 1.5rem; padding-bottom:.5rem; border-bottom:1px solid #d1d1d1;">Areas where I can contribute</h2>
 
 <style>
 .cv-box { border:1px solid #444; border-radius:6px; margin:1rem 0; background:#222; }
