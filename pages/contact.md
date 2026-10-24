@@ -3,6 +3,11 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
+<style>
+.page__content .fa,
+table .fa { color:#90b4e1; }
+</style>
+
 
 <table style="border:none; border-collapse:collapse; width:auto; background:none;">
   <tr style="border:none; background:none;">
