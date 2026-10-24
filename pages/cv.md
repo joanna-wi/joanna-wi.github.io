@@ -29,6 +29,8 @@ permalink: /cv/
 .cv-full li:last-child { margin-bottom:0; }
 .cv-full li br { display:none; }
 .cv-full strong { display:block; margin-bottom:.5rem; }
+.cv-short li,
+.cv-full strong { font-family:'Montserrat', sans-serif; }
 </style>
 
 <details class="cv-box">
