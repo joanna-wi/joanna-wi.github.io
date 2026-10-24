@@ -6,18 +6,23 @@ permalink: /cv/
 
 <a href="{{ site.baseurl }}/assets//img/Joanna%20Wilkosz%20-%20CV.pdf" target="_blank" rel="noopener noreferrer">Open my CV (.pdf)</a>
 
-# Areas where I can contribute
+<br><br>
+
+<h2 style="font-size:2.2rem; margin:0 0 1.5rem; padding-bottom:.5rem; border-bottom:1px solid #d1d1d1;">Areas where I can contribute</h2>
 
 <style>
 .cv-box { border:1px solid #444; border-radius:6px; margin:1rem 0; background:#222; }
-.cv-box summary { list-style:none; cursor:pointer; padding:1.25rem 3.5rem 1.25rem 2.5rem; position:relative; display:flex; flex-direction:column; justify-content:center; min-height:5rem; }
+.cv-box summary { list-style:none; cursor:pointer; padding:1.25rem 3.5rem 1.25rem 2.5rem; position:relative; display:flex; flex-direction:column; justify-content:center; min-height:6rem; }
 .cv-box summary::-webkit-details-marker { display:none; }
 .cv-box summary::after { content:"\25BE"; position:absolute; right:1.5rem; top:50%; transform:translateY(-50%); font-size:1.5rem; transition:transform .2s; }
 .cv-box[open] summary::after { transform:translateY(-50%) rotate(180deg); }
 .cv-box[open] .cv-short { display:none; }
-.cv-box h3 { margin:0 0 .5rem; }
+.cv-box h3 { margin:0 0 .5rem; line-height:1.3; }
 .cv-box ul { margin:0; }
-.cv-short li { font-weight:bold; }
+.cv-short { padding-left:1.25rem; }
+.cv-short li { font-weight:bold; margin:0; padding:0; line-height:1.5; }
+.cv-box[open] summary { min-height:0; padding-bottom:.75rem; }
+.cv-box[open] h3 { margin-bottom:0; }
 .cv-full { padding:0 1.5rem 1.25rem 2.5rem; }
 .cv-full li { margin-bottom:.75rem; }
 .cv-full li:last-child { margin-bottom:0; }
