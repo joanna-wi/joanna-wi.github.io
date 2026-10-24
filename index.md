@@ -13,6 +13,8 @@ permalink: /
 </div>
 </section>
 
+
+
 <section id="projects">
   <h2>Projects</h2>
 <div class="project-list">
@@ -26,11 +28,13 @@ permalink: /
 </div>
 </section>
 
+
+
 <section id="cv">
   <h2>CV</h2>
 <a href="{{ site.baseurl }}/assets/img/Joanna%20Wilkosz%20-%20CV.pdf" target="_blank" rel="noopener noreferrer">View my CV (.pdf)</a>
 
-<br><br>
+<div style="height:3rem;"></div>
 
 <h2 style="font-size:2rem; margin:0 0 1.5rem; padding-bottom:.5rem; border-bottom:1px solid #d1d1d1;">Areas where I can contribute</h2>
 
@@ -153,13 +157,14 @@ document.querySelectorAll('.cv-full li').forEach(function (li) {
 </script>
 </section>
 
+
+
 <section id="contact">
   <h2>Contact</h2>
 <style>
 .page__content .fa,
 table .fa { color:#90b4e1; }
 </style>
-
 
 <table style="border:none; border-collapse:collapse; width:auto; background:none;">
   <tr style="border:none; background:none;">
