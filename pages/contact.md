@@ -3,7 +3,6 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
-<br>
 
 <style>
 .page__content .fa,
