@@ -27,6 +27,7 @@ permalink: /cv/
 .cv-full { padding:0 3.5rem 1.25rem 2.5rem; }
 .cv-full li { margin:0 0 1.5rem; text-align:justify; }
 .cv-full li:last-child { margin-bottom:0; }
+.cv-full li { font-size:1rem; line-height:1.75; }
 .cv-full li br { display:none; }
 .cv-full strong { display:block; margin-bottom:.5rem; }
 </style>
