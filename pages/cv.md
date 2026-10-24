@@ -25,9 +25,10 @@ permalink: /cv/
 .cv-box[open] summary { min-height:0; padding-bottom:.75rem; }
 .cv-box[open] h3 { margin-bottom:0; }
 .cv-full { padding:0 3.5rem 1.25rem 2.5rem; }
-.cv-full li { margin:0 0 .75rem; text-align:justify; }
+.cv-full li { margin:0 0 1.5rem; text-align:justify; }
 .cv-full li:last-child { margin-bottom:0; }
-.cv-full strong { text-decoration:underline; }
+.cv-full li br { display:none; }
+.cv-full strong { display:block; margin-bottom:.5rem; }
 </style>
 
 <details class="cv-box">
