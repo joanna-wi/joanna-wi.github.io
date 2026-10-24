@@ -3,10 +3,11 @@ layout: page
 title: CV
 permalink: /cv/
 ---
+<br>
 
-<a href="{{ site.baseurl }}/assets//img/Joanna%20Wilkosz%20-%20CV.pdf" target="_blank" rel="noopener noreferrer">Open my CV (.pdf)</a>
+<a href="{{ site.baseurl }}/assets//img/Joanna%20Wilkosz%20-%20CV.pdf" target="_blank" rel="noopener noreferrer">View my CV (.pdf)</a>
 
-<br><br>
+<br>
 
 <h2 style="font-size:2.2rem; margin:0 0 1.5rem; padding-bottom:.5rem; border-bottom:1px solid #d1d1d1;">Areas where I can contribute</h2>
 
