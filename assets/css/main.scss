@@ -54,7 +54,11 @@ a { color:#d1d1d1; }
 h1, h2, h3, h4, h5, h6,
 .page__title,
 .archive__item-title,
-.sidebar .author__name {
+.sidebar .author__name,
+.menu-link,
+.site-title,
+.site-title a,
+.dropdown-content a {
   font-family: $heading-font-family;
 }
 
