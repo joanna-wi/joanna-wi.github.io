@@ -3,7 +3,6 @@ layout: page
 title: CV
 permalink: /cv/
 ---
-<br>
 
 <a href="{{ site.baseurl }}/assets//img/Joanna%20Wilkosz%20-%20CV.pdf" target="_blank" rel="noopener noreferrer">View my CV (.pdf)</a>
 
