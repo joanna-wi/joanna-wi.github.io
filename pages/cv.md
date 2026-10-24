@@ -8,14 +8,15 @@ permalink: /cv/
 
 <style>
 .cv-box { border:1px solid #444; border-radius:6px; margin:1rem 0; background:#222; }
-.cv-box summary { list-style:none; cursor:pointer; padding:1rem 3rem 1rem 1.25rem; position:relative; }
+.cv-box summary { list-style:none; cursor:pointer; padding:1.25rem 3.5rem 1.25rem 2.5rem; position:relative; display:flex; flex-direction:column; justify-content:center; min-height:5rem; }
 .cv-box summary::-webkit-details-marker { display:none; }
-.cv-box summary::after { content:"\25BE"; position:absolute; right:1.25rem; top:.9rem; font-size:1.5rem; transition:transform .2s; }
-.cv-box[open] summary::after { transform:rotate(180deg); }
+.cv-box summary::after { content:"\25BE"; position:absolute; right:1.5rem; top:50%; transform:translateY(-50%); font-size:1.5rem; transition:transform .2s; }
+.cv-box[open] summary::after { transform:translateY(-50%) rotate(180deg); }
 .cv-box[open] .cv-short { display:none; }
 .cv-box h3 { margin:0 0 .5rem; }
 .cv-box ul { margin:0; }
-.cv-full { padding:0 1.25rem 1rem; }
+.cv-short li { font-weight:bold; }
+.cv-full { padding:0 1.5rem 1.25rem 2.5rem; }
 </style>
 
 <details class="cv-box">
