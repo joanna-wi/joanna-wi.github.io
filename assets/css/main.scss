@@ -78,4 +78,6 @@ h1, h2, h3, h4, h5, h6,
 
 html { scroll-behavior:smooth; }
 [id] { scroll-margin-top:70px; }
-section[id] { min-height:100vh; padding-bottom:25rem; }
+section[id] { display:none; min-height:100vh; padding-bottom:25rem; }
+section[id].active { display:block; animation:fadein .4s; }
+@keyframes fadein { from { opacity:0; } to { opacity:1; } }
