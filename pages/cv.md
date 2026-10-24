@@ -6,6 +6,8 @@ permalink: /cv/
 
 <a href="{{ site.baseurl }}/assets//img/Joanna%20Wilkosz%20-%20CV.pdf" target="_blank" rel="noopener noreferrer">Open my CV (.pdf)</a>
 
+# Areas where I can contribute
+
 <style>
 .cv-box { border:1px solid #444; border-radius:6px; margin:1rem 0; background:#222; }
 .cv-box summary { list-style:none; cursor:pointer; padding:1.25rem 3.5rem 1.25rem 2.5rem; position:relative; display:flex; flex-direction:column; justify-content:center; min-height:5rem; }
