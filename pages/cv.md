@@ -18,13 +18,13 @@ permalink: /cv/
 .cv-box[open] summary::after { transform:translateY(-50%) rotate(180deg); }
 .cv-box[open] .cv-short { display:none; }
 .cv-box h3 { margin:0 0 .5rem; line-height:1.3; }
-.cv-box ul { margin:0; }
-.cv-short { padding-left:1.25rem; }
-.cv-short li { font-weight:bold; margin:0; padding:0; line-height:1.5; }
+.cv-box ul { margin:0; padding:0 0 0 1.25rem; list-style-position:outside; }
+.cv-box li { margin-left:0; padding-left:0; }
+.cv-short li { font-weight:bold; margin:0; line-height:1.5; }
 .cv-box[open] summary { min-height:0; padding-bottom:.75rem; }
 .cv-box[open] h3 { margin-bottom:0; }
-.cv-full { padding:0 1.5rem 1.25rem 2.5rem; }
-.cv-full li { margin-bottom:.75rem; }
+.cv-full { padding:0 3.5rem 1.25rem 2.5rem; }
+.cv-full li { margin:0 0 .75rem; text-align:justify; }
 .cv-full li:last-child { margin-bottom:0; }
 </style>
 
