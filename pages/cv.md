@@ -18,7 +18,7 @@ permalink: /cv/
 .cv-box[open] summary::after { transform:translateY(-50%) rotate(180deg); }
 .cv-box[open] .cv-short { display:none; }
 .cv-box h3 { margin:0 0 .5rem; line-height:1.3; }
-.cv-box h3 { color:#90b4e1; font-family:'Montserrat', sans-serif; }
+.cv-box h3 { color:#90b4e1; }
 .cv-box ul { margin:0; padding:0 0 0 1.25rem; list-style-position:outside; }
 .cv-box li { margin-left:0; padding-left:0; }
 .cv-short li { font-weight:bold; margin:0; line-height:1.5; }
@@ -29,8 +29,6 @@ permalink: /cv/
 .cv-full li:last-child { margin-bottom:0; }
 .cv-full li br { display:none; }
 .cv-full strong { display:block; margin-bottom:.5rem; }
-.cv-short li,
-.cv-full strong { font-family:'Montserrat', sans-serif; }
 </style>
 
 <details class="cv-box">
