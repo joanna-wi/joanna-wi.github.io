@@ -143,7 +143,7 @@ permalink: /
   </summary>
   <div class="cv-full">
     <ul>
-      <li><strong>Neuroscience, psychology, psychiatry</strong><br>With a BSc in Neurobiology and an MSc in Neuroscience, I bring extensive knowledge of brain function, along with an aptitude for grounding project design and findings in scholarly research. No matter the task, at the core of my work lies a passion for uncovering the drivers behind people's behaviours, attitudes, and choices.</li>
+      <li><strong>Neuroscience, psychology, psychiatry</strong><br>With a BSc in Neurobiology and an MSc in Neuroscience, I bring extensive knowledge of brain function, along with a proficiency at grounding project design and findings in scholarly research. No matter the task, at the core of my work lies a passion for uncovering the drivers behind people's behaviours, attitudes, and choices.</li>
       <li><strong>Human biology</strong><br>My education and professional background extend beyond the specialisation in the nervous system to a holistic understanding of anatomy and physiology. This includes hands-on experience in analysing muscle movements and autonomic signals.</li>
       <li><strong>Biosensors and medical devices</strong><br>I have worked with a broad spectrum of hardware and software tools across consulting (eye tracking, facial expression analysis, voice analysis, EDA, EMG, ECG, respiration, EEG, fNIRS), clinical work (EEG, EMG), and entrepreneurship research (fMRI), gaining theoretical and practical command of their functioning, alongside the capacity to master new technologies quickly.</li>
     </ul>
