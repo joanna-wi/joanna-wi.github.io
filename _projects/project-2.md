@@ -5,7 +5,8 @@ image: yt-1.jpg
 ---
 <style>
 .project-list { padding-left: 1.2em; margin: 0.5em 0; }
-.project-list li { margin: 0; padding: 0; line-height: 1.3; }
+.project-list li { margin: 0; padding: 0; line-height: 1.5; }
+.project-links a { color: #90b4e1; }
 </style>
 
 <div style="text-align: justify;" markdown="1">
@@ -30,7 +31,9 @@ In my case study, I analysed the data from Experiment 3, wherein respondents <st
 
 <br>
 
+<div class="project-links" markdown="1">
 <a href="https://joanna-wi.github.io/Project-2/Educational%20Content%20Preferences.pdf" target="_blank" rel="noopener noreferrer">View Report (.pdf)</a><br>
 <a href="https://joanna-wi.github.io/Project-2/Dashboard%20Overview%20-%20Project%202.pdf" target="_blank" rel="noopener noreferrer">View PowerBI Dashboard (.pdf)</a><br>
 <a href="https://github.com/joanna-wi/joanna-wi.github.io/raw/refs/heads/Project-2/Project%202%20-%20Dashboard.pbix" target="_blank" rel="noopener noreferrer">Download PowerBI Dashboard from GitHub (.pbix)</a><br>
 <a href="https://joanna-wi.github.io/Project-2/Methods%20and%20sources%20-%20Project%202.pdf" target="_blank" rel="noopener noreferrer">Methods &amp; Sources (.pdf)</a>
+</div>
