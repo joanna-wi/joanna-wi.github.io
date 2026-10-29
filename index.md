@@ -7,8 +7,8 @@ permalink: /
 <div class="home">
   <img class="profile-photo" src="{{ site.baseurl }}/assets/img/profile-img-color.jpg" alt="my photo">
   <div class="home-text">
-    <h1>Your Name</h1>
-    <p>write your about me text here.</p>
+    <h1>Hi, I'm Joanna!</h1>
+    <p style="text-align: center;">I help bring companies closer to their clients by tapping into the science of the human mind and behaviour. You can count on me to foster open conversations where people's needs are heard, incorporate novel devices and technologies to discover what they cannot express, and connect it all back to your goal with insights that make decisions easier.<br><br>See examples of my work in <strong style="color:#90b4e1;">Projects</strong> and find out more about my experience in <strong style="color:#90b4e1;">CV</strong>.</p>
   </div>
 </div>
 </section>
