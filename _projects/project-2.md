@@ -30,7 +30,7 @@ In my case study, I analysed the data from Experiment 3, wherein respondents <st
 *Note: The original experiment comprised two conditions, attentive and distracted exposure. While both were analysed and incorporated into the PowerBI dashboard, the report covers only the attentive condition for the sake of brevity.*
 
 <div class="project-links" markdown="1">
-<a href="https://joanna-wi.github.io/Project-2/Educational%20Content%20Preferences.pdf" target="_blank" rel="noopener noreferrer">View Report (.pdf)</a><br>
+<a href="https://joanna-wi.github.io/Project-2/Educational%20Content%20Preferences%20Report.pdf" target="_blank" rel="noopener noreferrer">View Report (.pdf)</a><br>
 <a href="https://joanna-wi.github.io/Project-2/Dashboard%20Overview%20-%20Project%202.pdf" target="_blank" rel="noopener noreferrer">View PowerBI Dashboard (.pdf)</a><br>
 <a href="https://github.com/joanna-wi/joanna-wi.github.io/raw/refs/heads/Project-2/Project%202%20-%20Dashboard.pbix" target="_blank" rel="noopener noreferrer">Download PowerBI Dashboard from GitHub (.pbix)</a><br>
 <a href="https://joanna-wi.github.io/Project-2/Methods%20and%20sources%20-%20Project%202.pdf" target="_blank" rel="noopener noreferrer">Methods &amp; Sources (.pdf)</a>
