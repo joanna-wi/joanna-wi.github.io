@@ -5,7 +5,8 @@ image: ecommerce-1.jpg
 ---
 <style>
 .project-list { padding-left: 1.2em; margin: 0.5em 0; }
-.project-list li { margin: 0; padding: 0; line-height: 1.3; }
+.project-list li { margin: 0; padding: 0; line-height: 1.5; }
+.project-links a { color: #90b4e1; }
 </style>
 
 <div style="text-align: justify;" markdown="1">
@@ -16,7 +17,7 @@ Back in 2018, a Brazilian e-commerce platform, <strong style="color:#90b4e1;">Ol
 My project approaches it from the perspective of the end of the dataset - the middle of Q3 2018 - and asks what was the <strong style="color:#90b4e1;">company's position</strong> at that time compared to the past, and what would have been the <strong style="color:#90b4e1;">best course of action</strong> to make the rest of 2018 as successful as possible?
 
 
-### The analysis includes insights and recommendations on aspects such as:
+### The analysis includes insights and recommendations on:
 
 <ul class="project-list">
   <li>Revenue and order size</li>
@@ -29,7 +30,9 @@ My project approaches it from the perspective of the end of the dataset - the mi
 
 <br>
 
+<div class="project-links" markdown="1">
 <a href="https://joanna-wi.github.io/Project-1/Olist%20Report.pdf" target="_blank" rel="noopener noreferrer">View Report (.pdf)</a><br>
 <a href="https://joanna-wi.github.io/Project-1/Dashboard%20Overview.pdf" target="_blank" rel="noopener noreferrer">View PowerBI Dashboard (.pdf)</a><br>
 <a href="https://github.com/joanna-wi/joanna-wi.github.io/blob/Project-1/Project%201%20-%20Dashboard.pbix" target="_blank" rel="noopener noreferrer">Download PowerBI Dashboard from GitHub (.pbix)</a><br>
 <a href="https://joanna-wi.github.io/Project-1/Methods%20and%20sources.pdf" target="_blank" rel="noopener noreferrer">Methods &amp; Sources (.pdf)</a>
+</div>
