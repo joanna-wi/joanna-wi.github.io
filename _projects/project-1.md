@@ -3,6 +3,11 @@ layout: post
 title: E-Commerce Dataset Case Study
 image: ecommerce-1.jpg
 ---
+<style>
+.project-list { padding-left: 1.2em; margin: 0.5em 0; }
+.project-list li { margin: 0; padding: 0; line-height: 1.3; }
+</style>
+
 <div style="text-align: justify;" markdown="1">
   
 Back in 2018, a Brazilian e-commerce platform, <strong style="color:#90b4e1;">Olist</strong>, published an anonymised dataset with <strong style="color:#90b4e1;">information on nearly 100k orders</strong> placed over a period of 2 years (<a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce" target="_blank" rel="noopener noreferrer">Kaggle</a>). The data covers customer location and purchase behaviour; order contents, payment, and delivery; as well as online ratings and reviews.
@@ -13,12 +18,13 @@ My project approaches it from the perspective of the end of the dataset - the mi
 
 ### The analysis includes insights and recommendations on aspects such as:
 
-- Revenue and order size
-- Product category popularity
-- Customer loyalty
-- Customer satisfaction as reflected in ratings and review sentiments
-- Delivery performance
-- Local wins and concerns
+<ul class="project-list">
+  <li>Feedback and content retention by format and video</li>
+  <li>Visual attention patterns as measured by eye tracking (ET)</li>
+  <li>Autonomic response as measured by electrocardiography (ECG)</li>
+  <li>Neural activity as measured by electroencephalography (EEG)</li>
+  <li>Emerging audience segments</li>
+</ul>
 
 <br>
 
