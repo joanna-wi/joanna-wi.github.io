@@ -4,13 +4,13 @@ title: Educational Content Preferences Case Study
 image: yt-1.jpg
 ---
 
-A group of researchers at City College of New York conducted a series of experiments investigating behavioural and physiological reactions to educational videos (<a href="https://www.nature.com/articles/s41597-026-07215-1" target="_blank" rel="noopener noreferrer">Nature Scientific Data</a>). The preprocessed data was subsequently shared online (<a href="https://bbbd.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">The Brain, Body, and Behaviour Dataset</a>). 
+A group of researchers at City College of New York conducted a series of experiments investigating <strong style="color:#90b4e1;">behavioural and physiological reactions to educational videos</strong> (<a href="https://www.nature.com/articles/s41597-026-07215-1" target="_blank" rel="noopener noreferrer">Nature Scientific Data</a>). The preprocessed data was subsequently shared online (<a href="https://bbbd.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">The Brain, Body, and Behaviour Dataset</a>). 
 
 
-In my case study, I analysed the data from Experiment 3, wherein respondents watched six videos divided into three presentation styles (Presenter and Animation, Writing Hand and Animation, Presenter and Glassboard). Afterwards, participants rated each video on three scales (Educational, Engaging, Enjoyable) and completed a quiz testing their newly acquired knowledge. My objective was to turn the captured observations into guidance for developing educational content that appeals to viewers and facilitates learning.
+In my case study, I analysed the data from Experiment 3, wherein respondents <strong style="color:#90b4e1;">watched six videos divided into three presentation styles</strong> (Presenter and Animation, Writing Hand and Animation, Presenter and Glassboard). Afterwards, participants rated each video on three scales (Educational, Engaging, Enjoyable) and completed a quiz testing their newly acquired knowledge. My objective was to turn the captured observations into <strong style="color:#90b4e1;">guidance for developing educational content that appeals to viewers and facilitates learning</strong>.
 
 
-The report sheds light on:
+**The report sheds light on:**
 
 - Feedback and content retention by format and video
 - Visual attention patterns as measured by eye tracking (ET)
