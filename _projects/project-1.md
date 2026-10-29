@@ -19,11 +19,12 @@ My project approaches it from the perspective of the end of the dataset - the mi
 ### The analysis includes insights and recommendations on aspects such as:
 
 <ul class="project-list">
-  <li>Feedback and content retention by format and video</li>
-  <li>Visual attention patterns as measured by eye tracking (ET)</li>
-  <li>Autonomic response as measured by electrocardiography (ECG)</li>
-  <li>Neural activity as measured by electroencephalography (EEG)</li>
-  <li>Emerging audience segments</li>
+  <li>Revenue and order size</li>
+  <li>Product category popularity</li>
+  <li>Customer loyalty</li>
+  <li>Customer satisfaction as reflected in ratings and review sentiments</li>
+  <li>Delivery performance</li>
+  <li>Local wins and concerns</li>
 </ul>
 
 <br>
