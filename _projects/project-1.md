@@ -28,7 +28,6 @@ My project approaches it from the perspective of the end of the dataset - the mi
   <li>Local wins and concerns</li>
 </ul>
 
-<br>
 
 <div class="project-links" markdown="1">
 <a href="https://joanna-wi.github.io/Project-1/Olist%20Report.pdf" target="_blank" rel="noopener noreferrer">View Report (.pdf)</a><br>
