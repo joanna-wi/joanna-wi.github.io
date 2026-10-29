@@ -3,6 +3,11 @@ layout: post
 title: Educational Content Preferences Case Study
 image: yt-1.jpg
 ---
+<style>
+.project-list { padding-left: 1.2em; margin: 0.5em 0; }
+.project-list li { margin: 0; padding: 0; line-height: 1.3; }
+</style>
+
 <div style="text-align: justify;" markdown="1">
   
 A group of researchers at City College of New York conducted a series of experiments investigating <strong style="color:#90b4e1;">behavioural and physiological reactions to educational videos</strong> (<a href="https://www.nature.com/articles/s41597-026-07215-1" target="_blank" rel="noopener noreferrer">Nature Scientific Data</a>). The preprocessed data was subsequently shared online (<a href="https://bbbd.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">The Brain, Body, and Behaviour Dataset</a>). 
@@ -13,12 +18,13 @@ In my case study, I analysed the data from Experiment 3, wherein respondents <st
 
 ### The report sheds light on:
 
-- Feedback and content retention by format and video
-- Visual attention patterns as measured by eye tracking (ET)
-- Autonomic response as measured by electrocardiography (ECG)
-- Neural activity as measured by electroencephalography (EEG)
-- Emerging audience segments
-
+<ul class="project-list">
+  <li>Feedback and content retention by format and video</li>
+  <li>Visual attention patterns as measured by eye tracking (ET)</li>
+  <li>Autonomic response as measured by electrocardiography (ECG)</li>
+  <li>Neural activity as measured by electroencephalography (EEG)</li>
+  <li>Emerging audience segments</li>
+</ul>
 
 *Note: The original experiment comprised two conditions, attentive and distracted exposure. While both were analysed and incorporated into the PowerBI dashboard, the report contains only the attentive condition for the sake of brevity.*
 
