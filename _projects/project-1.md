@@ -4,13 +4,13 @@ title: E-Commerce Dataset Case Study
 image: ecommerce-1.jpg
 ---
 
-Back in 2018, a Brazilian e-commerce platform, Olist, published an anonymised dataset with information on nearly 100k orders placed over a period of 2 years (<a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce" target="_blank" rel="noopener noreferrer">Kaggle</a>). The data covers customer location and purchase behaviour; order contents, payment, and delivery; as well as online ratings and reviews.
+Back in 2018, a Brazilian e-commerce platform, <strong style="color:#90b4e1;">Olist</strong>, published an anonymised dataset with <strong style="color:#90b4e1;">information on nearly 100k orders</strong> placed over a period of 2 years (<a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce" target="_blank" rel="noopener noreferrer">Kaggle</a>). The data covers customer location and purchase behaviour; order contents, payment, and delivery; as well as online ratings and reviews.
 
 
-My project approaches it from the perspective of the end of the dataset - the middle of Q3 2018 - and asks what was the company's position at that time compared to the past, and what would have been the best course of action to make the rest of 2018 as successful as possible?
+My project approaches it from the perspective of the end of the dataset - the middle of Q3 2018 - and asks <strong style="color:#90b4e1;">what was the company's position at that time compared to the past, and what would have been the best course of action to make the rest of 2018 as successful as possible</strong>?
 
 
-The analysis includes insights and recommendations on aspects such as:
+**The analysis includes insights and recommendations on aspects such as:**
 
 - Revenue and order size
 - Product category popularity
