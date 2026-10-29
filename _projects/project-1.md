@@ -11,7 +11,7 @@ Back in 2018, a Brazilian e-commerce platform, <strong style="color:#90b4e1;">Ol
 My project approaches it from the perspective of the end of the dataset - the middle of Q3 2018 - and asks what was the <strong style="color:#90b4e1;">company's position</strong> at that time compared to the past, and what would have been the <strong style="color:#90b4e1;">best course of action</strong> to make the rest of 2018 as successful as possible?
 
 
-###The analysis includes insights and recommendations on aspects such as:
+### The analysis includes insights and recommendations on aspects such as:
 
 - Revenue and order size
 - Product category popularity
