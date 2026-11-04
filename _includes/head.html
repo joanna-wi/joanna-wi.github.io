@@ -26,4 +26,15 @@
   {% include google-analytics.html %}
   <!-- Use Jekyll SEO plugin -->
   {% seo %}
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PYQ6D95XBN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PYQ6D95XBN');
+</script>
+  
 </head>
